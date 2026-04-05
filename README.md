@@ -151,6 +151,121 @@ Claude-code_SKILLS/
 
 ---
 
+
+
+
+# 🔌 Free MCP Servers for AI Agents
+
+> A curated list of free / open-source MCP (Model Context Protocol) servers organized by development category. All entries are MIT/Apache licensed or have generous free tiers.
+
+---
+
+## 📑 Table of Contents
+
+- [🎨 Frontend \& Design](#-frontend--design)
+- [⚙️ Backend](#️-backend)
+- [🤖 AI \& ML](#-ai--ml)
+- [🔄 Workflows](#-workflows)
+
+---
+
+## 🎨 Frontend & Design
+
+| Server | Language | License | Best For |
+|---|---|---|---|
+| [Figma MCP](https://github.com/figma/figma-developer-mcp) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | Free tier | Design-to-code: generates React/Vue/Angular from real Figma node tree |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | MIT | Browser automation via accessibility trees — verify UI at localhost |
+| [Magic UI MCP](https://magicui.design/docs/mcp) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | Free | React + Tailwind component library — ship polished UI fast |
+| [Context7 MCP](https://github.com/upstash/context7) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | Free tier | Fetches live, version-specific docs so AI never uses stale APIs |
+| [Vercel MCP](https://vercel.com/docs/mcp) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | Free tier | Deploy, monitor, and manage Next.js/full-stack projects from chat |
+| [Fetch MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | MIT | Converts web pages to LLM-friendly format — official Anthropic server |
+
+> ⭐ **Top pick:** Figma MCP for design handoff · Playwright MCP for UI testing (12K+ GitHub stars)
+
+---
+
+## ⚙️ Backend
+
+| Server | Language | License | Best For |
+|---|---|---|---|
+| [Supabase MCP](https://github.com/supabase-community/supabase-mcp) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | Free tier | Natural-language Postgres queries, auth, storage, and log debugging |
+| [GitHub MCP](https://github.com/github/github-mcp-server) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | MIT | PRs, issues, code search, and Actions — all without leaving your editor |
+| [Git MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/git) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | MIT | Local repo git ops — great for air-gapped or huge monorepos |
+| [Filesystem MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | MIT | Secure file read/write with access controls — official Anthropic server |
+| [Kubectl MCP](https://github.com/rohitg00/kubectl-mcp-server) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | MIT | Natural-language kubectl — find crashed pods, stream logs, manage clusters |
+| [FastAPI MCP](https://github.com/tadata-org/fastapi_mcp) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | Free / OSS | Exposes FastAPI endpoints as MCP tools with zero config |
+
+> ⭐ **Top pick:** Supabase MCP for full backend control · GitHub MCP for repo automation
+
+---
+
+## 🤖 AI & ML
+
+| Server | Language | License | Best For |
+|---|---|---|---|
+| [Run Python MCP](https://github.com/modelcontextprotocol/servers) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | Free / OSS | Sandboxed Python execution — run ML experiments and data analysis inline |
+| [mcp-agent (LastMile)](https://github.com/lastmile-ai/mcp-agent) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | Free / OSS | Compose agents with map-reduce, orchestrator, and evaluator-optimizer patterns |
+| [Brave Search MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | Free tier | Independent search index for real-time AI grounding |
+| [Sentry MCP](https://github.com/getsentry/sentry-mcp) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | Free tier | AI pulls live error traces + correlates with releases to propose fixes |
+| [DuckDuckGo Search MCP](https://github.com/nickclyde/duckduckgo-mcp-server) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | MIT | Fully free web search — no API key needed, no rate-limit costs |
+| [Postman MCP](https://mcp.postman.com) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | Free tier | AI-assisted API testing and ML model endpoint validation |
+
+> ⭐ **Top pick:** Run Python MCP for ML work · DuckDuckGo MCP for zero-cost web search
+
+---
+
+## 🔄 Workflows
+
+| Server | Language | License | Best For |
+|---|---|---|---|
+| [Slack MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | Free tier | 47 tools — search messages, post to channels, manage team workflows |
+| [Google Calendar MCP](https://github.com/nspady/google-calendar-mcp) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | Free | Event creation, reminders, and scheduling via Google Calendar API |
+| [Netlify MCP](https://github.com/netlify/netlify-mcp) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | Free tier | Manage JAMstack sites, builds, env vars, and preview deploys |
+| [GitLab MCP](https://github.com/kopfrechner/gitlab-mr-mcp) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | MIT | CI/CD pipeline monitoring and MR automation for self-managed GitLab |
+| [GitHub Actions MCP](https://github.com/Tiberriver256/mcp-server-github-actions) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | MIT | Chat-driven CI — re-run workflows, watch statuses, debug failures |
+| [Google Maps MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | Free tier | Spatial awareness for agents — POI data, delivery zones, location queries |
+
+> ⭐ **Top pick:** Slack MCP for team automation · GitHub Actions MCP for CI/CD chat control
+
+---
+
+## 💡 Quick Setup Tips
+
+```json
+// claude_desktop_config.json — example multi-server setup
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/your/path"]
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": { "GITHUB_PERSONAL_ACCESS_TOKEN": "your-token" }
+    },
+    "supabase": {
+      "command": "npx",
+      "args": ["-y", "@supabase/mcp-server-supabase"],
+      "env": { "SUPABASE_URL": "your-url", "SUPABASE_KEY": "your-key" }
+    }
+  }
+}
+```
+
+> **Tip:** Start with 2–3 servers from your primary category. Running 10+ servers simultaneously can exhaust token budgets in longer conversations.
+
+---
+
+<div align="center">
+
+**MCP is governed by the [Agentic AI Foundation](https://www.linuxfoundation.org/) under the Linux Foundation**  
+Anthropic · OpenAI · Google · Microsoft · AWS are all member organizations
+
+</div>
+
+
+
 ## Usage in Claude Code
 
 ### Option 1 — Project-level skills (recommended)
@@ -277,11 +392,7 @@ See [workflow/write-a-skill.md](workflow/write-a-skill.md) for detailed guidance
 
 ## Credits
 
-- Core engineering skills (17): built for this repository
+- Core engineering skills (17)
 - Workflow skills (13): adapted from [mattpocock/skills](https://github.com/mattpocock/skills)
   by Matt Pocock — original work on PRD writing, TDD, git guardrails, and developer
   workflow automation
-
-## Licence
-
-MIT — use freely, contribute back.
