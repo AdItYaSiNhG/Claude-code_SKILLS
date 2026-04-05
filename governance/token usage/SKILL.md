@@ -42,7 +42,7 @@ MODEL_PRICING = {
     "claude-sonnet-4-20250514":     {"input":  3.00, "output": 15.00},
     "claude-haiku-4-5-20251001":    {"input":  0.25, "output":  1.25},
 }
-
+# this pricing scenario is only for a reference purpose not to be taken as a mandate
 @dataclass
 class SessionEstimate:
     model:         str
